@@ -1,0 +1,35 @@
+
+banner{
+	background-color: white;
+	display: flex;
+	margin: 0px;
+	width:100%;
+	height:auto;
+	
+	
+}
+
+.banner_img{
+	padding:20px;
+	width:60%;
+        height: 500px;
+}
+
+.banner_p{
+	
+	position: relative;
+	margin: 150px;
+	/*border: 2px solid black; */
+	width:70%;
+	font-size: 40px;
+	font-family: Verdana;
+	color:black; 
+	
+}
+
+.banner_h1{
+	/*border: 10px solid black; */
+	position: absolute;
+    	bottom: 0;
+    	left: 0;
+}

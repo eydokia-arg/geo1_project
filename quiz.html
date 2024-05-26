@@ -1,0 +1,188 @@
+<html>
+
+
+<<head>
+<meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0" />
+    <link rel="stylesheet"
+          href="./style.css" />
+    <title>Code Quiz</title>
+</head>
+
+
+
+
+<link rel="stylesheet" href="css/style_background.css">
+<link rel="stylesheet" href="css/banner.css">
+<link rel="stylesheet" href="css/style_navbar.css">
+<link rel="stylesheet" href="css/Style.css">
+
+<style> 
+
+    .textbox{ 
+        padding-top: 20px;
+	    margin: auto;
+	    width: 70%;
+	    text-align: justify;
+	    font-size:18px;
+		font-family:arial;
+    }
+
+    .textbox h2{
+         
+        width: 100%;
+		font-family:arial;
+		color: #cc0066
+    }
+	
+	.textbox h3{
+	    margin: auto;
+	    width: 70%;
+	    text-align: justify;
+        position:relative;
+		font-size:12px;
+		font-family:arial;
+		font-style: italic;
+		
+	}
+    .textwrap {
+        width:400px;
+        float: right;
+        margin-left:10px;
+       
+    }
+    .textwrapleft {
+        width:300px;
+        float: left;
+        margin-right: 10px;
+        
+    }
+
+    .topnav {
+        width:80%;
+        margin:auto;
+        border: 20px solid rgb(35, 103, 148);
+        overflow: hidden;
+        background-color: rgba(76, 82, 165, 0.589);
+        display:flex;
+	    justify-content: center;
+        
+    }
+    .topnav a{
+        text-align: center;
+        height: auto;
+        margin:0px 20px;
+        text-decoration:none;
+        color:rgb(0, 0, 0);
+        font-size: large;
+    }
+
+</style>
+
+<style>
+a {
+  color:#ff0066
+}
+</style>
+
+
+<body>
+
+<banner>
+	<img class="banner_img" src="icons\photo1.jpg">
+	<div class="banner_p">
+		<h1 style="margin:0;" class="banner_h1">Ήπειροι και Ωκεανοί</h1>
+	</div>
+
+</banner>
+
+ <div class="navbar">
+<a href="index.html">Μαθαίνω τις ηπείρους και τους ωκεανούς</a>
+<a href="quiz.html">QUIZ</a>
+
+</div>
+
+<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0" />
+	<link rel="stylesheet"
+		href="./style.css" />
+	<title>Ήπειροι και Ωκεανοί Quiz</title>
+
+
+	<div class="containerNew">
+		<header>
+			<div>
+				<a href="./highscore.html">
+					<button class="scores-header"
+							id="view-high-scores">
+						Επιστροφή
+					</button>
+				</a>
+			</div>
+
+			<div class="timer">
+				<p>
+					Time:
+					<span id="timer">
+						0
+					</span>
+				</p>
+			</div>
+		</header>
+
+		<main class="quiz">
+			<div id="quiz-start">
+				<div class="landing"
+					id="start-screen">
+					<h1 id="top">
+						Ήπειροι και Ωκεανοί
+					</h1>
+					<h1>
+						Quiz Challenge
+					</h1>
+					<p>
+						Αφού έχεις διαβάσει μερικές πληροφορίες
+						για τις ηπείρους και τους ωκεανούς, μπορείς 
+						τώρα να απαντήσεις στις ερωτήσεις που ακολουθούν;
+					</p>
+					<button id="start">
+						Ξεκίνα το Quiz
+					</button>
+				</div>
+			</div>
+
+			<div class="hide" id="questions">
+				<h2 id="question-words"></h2>
+				<div class="options" id="options">
+				</div>
+			</div>
+
+			<div class="hide" id="quiz-end">
+				<h2>Τα κατάφερες!</h2>
+			</div>
+
+			<div id="feedback"
+				class="feedback hide">
+			</div>
+		</main>
+	</div>
+	<script src="./script.js"></script>
+
+
+
+		
+<footer style="	display:flex;	text-align: left; font-size: 14px; bottom:0; justify-content: space-around; margin:1% 35%; padding-top: 30px;">
+	
+	<h3> Ευδοκία_Αργιάννη© <br><br> email: korina-argi@hotmail.com </h3>
+
+</footer>
+
+
+	
+		
+</body>
+</html>
